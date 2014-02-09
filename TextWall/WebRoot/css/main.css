@@ -1,0 +1,599 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Adam Hansrod
+   ========================================================================== */
+
+body {
+    /* font: 16px/26px Helvetica, Helvetica Neue, Arial; */
+	font-weight:normal;
+	font-size:1em;
+	text-align:left;
+	font-family:verdana, sans-serif;
+	line-height:1;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Customized Theme
+   =================== */
+
+.header-container {
+/*     border-bottom: 20px solid #e44d26; */
+}
+
+.footer-container,
+.main aside {
+/*     border-top: 20px solid #e44d26; */
+}
+
+.header-container,
+.footer-container/* ,
+.main aside */ {
+    background: ForestGreen ;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display:none;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+    display:none;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 1em;
+}
+
+.main aside {
+    color: black;
+    padding: 0px 3% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+select {
+	width:18em;
+	margin: 0em 0em 0em 0em;
+}
+aside > p {
+	font-family: arial, sans-serif;
+	font-size: 10pt;
+	text-align:center;
+}
+
+section > a > img  {
+	margin-left:30%;
+	width:40%;
+	-webkit-box-shadow: 0 5px 10px #aaa;
+    -moz-box-shadow: 0 5px 10px #aaa;
+    box-shadow: 0 5px 10px #aaa;
+    border:solid black 1px;
+}
+section > p > a {
+	text-decoration: underline;
+}
+footer > p > a:hover, footer > p > a:visited, footer > p > a:link{
+	color: white;
+	text-decoration: underline;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+#UniCampusTimes, #LangstoneCampusTimes 
+{
+/* 	text-align:center; */
+	font-size:0.8em;
+}
+.Status {
+	display: block !important;
+    text-align: center !important;
+    color: white;
+    font-size:1.5em;
+  /*   margin-top:2em; */
+}
+#Okay{
+	color:lightgreen;
+	font-weight:bold;
+	font-size:15pt;
+}
+#NotOkay{
+	color:red;
+	font-weight:bold;
+	font-size:15pt;
+}
+#CouldBeBetter{
+	color:gold;
+	font-weight:bold;
+	font-size:15pt;
+}
+noscript h2 {
+	color:red;
+}
+a:visited,a:link,a:hover {
+	text-align:center;
+	text-decoration:none;
+	color:black;
+}
+p > a:visited, p > a:link,p > a:hover {
+	text-decoration:underline;
+}
+.title > a:visited, .title > a:link, .title > a:hover{
+	font-size:1.2em;	
+	color:white;
+}
+.title > p {
+	font-size:0.5em;
+	margin:0%;
+}
+a > h2 > a {
+	font-size:1em;
+}
+a > h2 > p {
+	font-size:0.8em;
+}
+aside >  header > h2 {
+	font-size: 1em;
+}
+select {
+	font-size:0.7em;
+	margin:0.3em 0em 0.3em 0em;
+}
+form > input {
+	position: relative;
+	left:15%;
+	right:15%;
+}
+section > a > h2 {
+	font-size:1em;
+}
+.wrapper {
+	font-size:0.8em;
+}
+/* Sticky CSS Footer */
+
+html, body {
+height: 100%;
+}
+.screen {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;/* the bottom margin is the negative value of the footer's height */
+}
+.footer-container , .push {
+height: 4em;/* .push must be the same height as .footer-container */
+}
+.busy{
+	background-color:ForestGreen;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	margin-left: 5%;
+	margin-right : 5%;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	color: White;
+	text-align: center;
+/* 	max-width:25%; */
+	display: inline-block;
+	min-width: 15em;
+/* 	float:left; */
+}
+.LV_validation_message{
+    font-weight:bold;
+    margin:0 0 0 5px;
+}
+
+.LV_valid {
+    color:#00CC00;
+}
+	
+.LV_invalid {
+    color:#CC0000;
+}
+    
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active {
+    border: 1px solid #00CC00;
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active {
+    border: 1px solid #CC0000;
+}
+/* ====================
+    CSS3 Effects
+   ==================== */
+
+    .header-container,.footer-container/* ,
+    .main aside */ {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+ /* ========================
+    Map images and times float nicely next to each other
+   ======================== */   
+    
+    .MapsTimes > a > img {
+    	position:relative !important;
+    	margin-left:0% ;
+    	width:90%;
+    }
+    #UniMapCampusTimes > a  {
+    	float:left !important;
+    	width:50%;  	
+    }
+    #LangstoneMapTimes > a{
+    	float:right !important;
+    	width:50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+/*         width: 57%; */
+    }
+
+    .main aside {
+        float: left;
+/*         width: 28%; */
+    }
+    select {
+    
+    }
+/* ========================
+    Map images and times float nicely next to each other
+   ======================== */ 
+    .MapsTimes > a > img {
+    	position:relative !important;
+    	margin-left:0% ;
+    	width:90%;
+    }
+    #UniMapCampusTimes > a  {
+    	float:left !important;
+    	width:50%;  	
+    }
+    #LangstoneMapTimes > a{
+    	float:right !important;
+    	width:50%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+ /* ========================
+    Map images and times float nicely next to each other
+   ======================== */ 
+    .MapsTimes > a > img {
+    	position:relative !important;
+    	margin-left:0% ;
+    	width:90%;    	
+    }
+    #UniMapCampusTimes > a  {
+    	float:left !important;
+    	width:50%;  	
+    }
+    #LangstoneMapTimes > a{
+    	float:right !important;
+    	width:50%;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
